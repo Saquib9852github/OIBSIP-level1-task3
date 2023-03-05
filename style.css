@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0%;
+  background-color: aqua;
+
+}
+
+.root {
+  height: 600px;
+  width: 600px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.data {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+  flex-direction: column;
+}
+.datafirst {
+  height: 200px;
+  width: 100%;
+  color: #454545;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightData {
+  height: 60px;
+  width: 40%;
+  display: grid;
+}
+
+.rightData input {
+  border: none;
+  border-bottom: 2px solid #454545;
+  font-weight: bold;
+  color: black;
+}
+
+.leftData {
+  height: 60px;
+  width: 40%;
+  display: grid;
+}
+
+.leftData select {
+  border: none;
+  border-bottom: 2px solid #454545;
+}
+
+.datasecond {
+  height: 80px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  color: #454545;
+  text-transform: capitalize;
+}
+
+.datasecond p {
+  border-bottom: 2px solid #454545;
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  height: 70px;
+  width: 80%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: #12d5d8;
+}
